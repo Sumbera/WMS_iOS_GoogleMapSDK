@@ -1,4 +1,4 @@
-WMSOnGoogleMap
+WMS_iOS_GoogleMapSDK 
 ==============
 
 Sample for using WMS sources in Google Maps SDK for iOS.
