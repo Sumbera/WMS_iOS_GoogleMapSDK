@@ -20,7 +20,7 @@ There are two ways of doing this:
  1. your derived class from GMSTileLayer (here WMSTileLayer.h)
  will receive tile request 
         
-                      -(void)requestTileForX:(NSUInteger)x   y:(NSUInteger)y    zoom:(NSUInteger)z    receiver:(id<GMSTileReceiver>)receiver
+           -(void)requestTileForX:(NSUInteger)x   y:(NSUInteger)y    zoom:(NSUInteger)z    receiver:(id<GMSTileReceiver>)receiver
 
             
  2. WMSTileLayer first checks for cached tile and if found calls :
@@ -29,14 +29,17 @@ There are two ways of doing this:
  
  3. if tile is not cached we download it, save it to the file system (using MD5 hash) and call to draw it
 
-              [data  writeToFile: filePath  atomically:YES];
-              [self drawTileAtX:x y: y zoom: z Url:urlStr Receiver:receiver] ;
+           
+            [data  writeToFile: filePath  atomically:YES];
+            [self drawTileAtX:x y: y zoom: z Url:urlStr Receiver:receiver] ;
               
  4. drawTileAtX is very simple:
+ 
             -(void) drawTileAtX: (NSUInteger) x   y:(NSUInteger)y    zoom:(NSUInteger)zoom   Url:(NSString*) url Receiver: (id<GMSTileReceiver>) receiver {
                  UIImage             *image   = TileLoad(url,NO); // loads tile from file system
                  [receiver receiveTileWithX:x y:y zoom:zoom image:image]; // pass it to the SDK API
             }
     
 }
+
 both ways are used in this sample.
