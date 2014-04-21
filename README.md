@@ -2,6 +2,10 @@ WMS_iOS_GoogleMapSDK
 ==============
 
 Sample for using WMS sources in Google Maps SDK for iOS.
+Provide your API key in the WMSController.h
+* used XCode 5.1.1
+* iPad Air, iOS 7.1 (should run in iOS6.0 too)
+
 There are two ways of doing this:
 - "Method B": use GMSTileURLConstructor
 
