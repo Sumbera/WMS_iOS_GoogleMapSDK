@@ -10,29 +10,29 @@
 	<string>WMSOnGoogleMap</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>9750CEDE-C45D-4452-86F1-BD03CFAA7DA7</key>
+		<key>A2AB57F5CB97B00E8206952BB949FF56CDF2425D</key>
 		<string>https://github.com/Sumbera/WMSOnGoogleMap.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>WMSOnGoogleMap.xcodeproj/project.xcworkspace</string>
+	<string>WMSOnGoogleMap.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>9750CEDE-C45D-4452-86F1-BD03CFAA7DA7</key>
+		<key>A2AB57F5CB97B00E8206952BB949FF56CDF2425D</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Sumbera/WMSOnGoogleMap.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9750CEDE-C45D-4452-86F1-BD03CFAA7DA7</string>
+	<string>A2AB57F5CB97B00E8206952BB949FF56CDF2425D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9750CEDE-C45D-4452-86F1-BD03CFAA7DA7</string>
+			<string>A2AB57F5CB97B00E8206952BB949FF56CDF2425D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>WMSOnGoogleMap</string>
 		</dict>

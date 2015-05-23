@@ -8,7 +8,7 @@
 #import <UIKit/UIKit.h>
 
 // add your API code here !
-static NSString *const kAPIKey = @"provide your key";
+static NSString *const kAPIKey = @"AIzaSyAzesNWRuWb6V_raNpjDPn0DscjtZCZ-NU";
 
 @interface WMSController : UIViewController
 
